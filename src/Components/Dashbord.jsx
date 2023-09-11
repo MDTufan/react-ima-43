@@ -17,7 +17,7 @@ const Dashbord = () => {
         </div>
             </div>
             <div className="col-10">
-            <h1 className="p-3 text-center bg-info text-black">This is React-Router area</h1>
+            <h1 className="p-3 text-center bg-info text-black xxx-xxx">This is React-Router area</h1>
             </div>
         </div>
     </div>

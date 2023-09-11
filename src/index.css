@@ -1,3 +1,28 @@
 body{
     background-color: antiquewhite;
 }
+
+.xxx-xxx{
+    font-weight: bold;
+}
+.xx-xx{
+    background-color: rgb(14, 9, 44);
+    color: white;
+    border-radius: 8px;
+}
+
+.x5{
+    text-align: center;
+    font-weight: bold;
+}
+.xxx-xx{
+    background-color: rgb(15, 32, 40);
+    color: white;
+    border-radius: 8px;
+}
+
+.xx-xxx{
+    background-color: rgb(56, 8, 18);
+    color: white;
+    border-radius: 8px;
+}
