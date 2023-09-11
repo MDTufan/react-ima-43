@@ -1,0 +1,19 @@
+.xxx{
+    background-color: #1C2B35;
+    width: 200px;
+    height: 600px;
+    position: fixed;
+}
+
+.xxx ul{
+    
+}
+.xxx ul li{
+list-style-type: none;
+}
+.xxx ul li a{
+text-decoration: none;
+color: black;
+font-size: 18px;
+font-weight: bold;
+}

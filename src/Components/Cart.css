@@ -1,0 +1,130 @@
+.cart-container
+{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    gap: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.sItem
+{
+    border: 1px solid #95A0A7;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.sItem .imagee 
+{
+    width: 70px;
+    height: 70px;
+    margin: 8px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.sItem .imagee img 
+{
+    width: 100%;
+    object-fit: cover;
+}
+.main-content h4 
+{
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+.main-content
+{
+    width: 60%;
+}
+
+.main-content p 
+{
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+.main-content p span 
+{
+    font-weight: 300;
+    color: #FF9900;
+}
+
+.delate-icon
+{
+    margin-right: 20px;
+}
+.delate-icon svg 
+{
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(235, 87, 87, 0.30);
+    padding: 7px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.cart-right 
+{
+    width: 80%;
+    background-color: #FF99004D;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+.cart-right h5 
+{
+    margin: 25px 0px;
+    font-size: 22px;
+    color: #1C2B35;
+}
+
+.cart-right span 
+{
+    display: block;
+    margin: 15px 0px;
+    color: #2A414F;
+    text-align: start;
+}
+
+.cart-right p
+{
+    text-align: start;
+    font-weight: 500;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+
+.cart-right button 
+{
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0px;
+    cursor: pointer;
+    color: white;
+    border-radius: 4px;
+    background-color: #FF3030;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.cart-right button svg 
+{
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.cart-right button:last-child
+{
+    background-color: #F90;
+}

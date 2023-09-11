@@ -1,0 +1,167 @@
+* 
+{
+    font-family: 'Lato', sans-serif;
+}
+.product-head
+{
+    display: flex;
+    justify-content: space-between;
+}
+.product-left
+{
+    width: 78%;
+    padding: 0px 8%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin: 30px 0px;
+}
+
+.s-item
+{
+    border: 1px solid #95A0A7;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+
+.flex
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.image
+{
+    margin: 5px;
+    height: 225px;
+    overflow: hidden;
+    background-color: #ebeeef;
+    background-image: url(no.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image img  
+{
+    width: 100%;
+    object-fit: cover;
+}
+
+.contents
+{
+    padding: 10px;
+    border-bottom: 1px solid #95A0A7;
+}
+.contents h4 
+{
+    margin: 12px 0px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.contents p 
+{
+    margin-bottom: 50px;
+}
+
+.contents span 
+{
+    display: block;
+    margin: 8px 0px;
+}
+
+.s-item button 
+{
+    width: 100%;
+    border-radius: none;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #FFE0B3;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.s-item button svg 
+{
+    margin-left: 5px;
+}
+
+.product-right
+{
+    background-color: #FF99004D;
+    width: 22%;
+    position: fixed;
+    height: 100%;
+    right: 0;
+    text-align: center;
+    padding: 18px;
+}
+
+.product-right h5 
+{
+    margin: 25px 0px;
+    font-size: 22px;
+    color: #1C2B35;
+}
+
+.product-right span 
+{
+    display: block;
+    margin: 15px 0px;
+    color: #2A414F;
+    text-align: start;
+}
+
+.product-right p
+{
+    text-align: start;
+    font-weight: 500;
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+.product-right button 
+{
+    padding: 10px;
+    width: 100%;
+    margin: 5px 0px;
+    cursor: pointer;
+    color: white;
+    border-radius: 4px;
+    background-color: #FF3030;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.product-right button svg 
+{
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.product-right button:last-child
+{
+    background-color: #F90;
+}
+gif 
+{
+   width: 30px; 
+   height: 30px;
+}
