@@ -9,10 +9,10 @@ const Dashbord = () => {
             <div className="col-2">
             <div className="xxx">
             <ul>
-                <li><button type="button" class="btn btn-info mt-4"><Link to="/deshbord/part1">part1</Link ></button></li>
-                <li> <button type="button" class="btn btn-info mt-4"><Link  to="/deshbord/part2">part2</Link ></button> </li>
-                <li> <button type="button" class="btn btn-info mt-4"><Link  to="/deshbord/part3">part3</Link ></button></li>
-                <li> <button type="button" class="btn btn-info mt-4"><Link  to="/">Go HomePage</Link ></button></li>
+                <li><button type="button" class="btn ggbb mt-4"><Link to="/deshbord/part1">part1</Link ></button></li>
+                <li> <button type="button" class="btn ggbb mt-4"><Link  to="/deshbord/part2">part2</Link ></button> </li>
+                <li> <button type="button" class="btn ggbb mt-4"><Link  to="/deshbord/part3">part3</Link ></button></li>
+                <li> <button type="button" class="btn ggbb mt-4"><Link  to="/">Go HomePage</Link ></button></li>
             </ul>
         </div>
             </div>

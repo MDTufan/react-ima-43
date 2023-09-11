@@ -26,3 +26,13 @@ body{
     color: white;
     border-radius: 8px;
 }
+.ggbb{
+    background-color:aqua;
+    font-weight: bold;
+    transition: 1s;
+}
+.ggbb:hover{
+    background-color: blue;
+    box-shadow: 0px 0px 5px cyan,0px 0px 30px cyan,0px 0px 30px cyan,0px 0px 2500px cyan;
+    color: white;
+}
